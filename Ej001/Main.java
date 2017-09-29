@@ -35,7 +35,21 @@ public class Main
         //Error, son tipos primitivos
         //System.out.println(a.toString()+b.toString());
         //Con wrapper
-        System.out.println(c.toString());
+        ///System.out.println(c.toString());
+
+        /*Qué pasa si tratas de sumar un int con un float? */
+        int x = 2;
+        float y = 1.1f;
+        System.err.println(x+y);
+        //Error de tipo incompatible
+        //int s = x+y;
+        //System.err.println(s);
+        //
+        float s = x+y;
+        System.err.println(s);
+        
+
+        /* */
 
 
     }
